@@ -7,7 +7,7 @@ export default function Profile() {
       <Image
   src="https://ugc.production.linktr.ee/f2f5e7f8-1a13-496d-aca7-6ffdc548902f_profile-orgnl.jpeg"
   alt="Mishal Turkane"
-  width={100}
+  width={200}
   height={100} // Change height to match width for a perfect circle
   className="rounded-full"
 />
