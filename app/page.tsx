@@ -5,7 +5,6 @@ import Experience from "@/components/Experience"
 import Projects from "@/components/Projects"
 import Skills from "@/components/Skills"
 import Socials from "@/components/Socials"
-import BlogPosts from "@/components/BlogPosts"
 
 export default function Home() {
   return (

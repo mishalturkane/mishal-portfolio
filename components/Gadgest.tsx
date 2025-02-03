@@ -29,7 +29,6 @@ export default function Gadgets() {
           <Link href={gadget.link} className="mt-2 text-gray-400 hover:text-gray-600 group">
             link
             <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">
-              <i className="fa-solid ml-2 fa-arrow-right fa-rotate-by" style={{ "--fa-rotate-angle": "330deg" }}></i>
             </span>
           </Link>
         </div>

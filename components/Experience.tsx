@@ -18,7 +18,6 @@ export default function Experience() {
               >
                 A2Infotech
                 <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">
-                  <i className="fa-solid fa-arrow-right fa-rotate-by" style={{ "--fa-rotate-angle": "330deg" }}></i>
                 </span>
               </a>
             </div>

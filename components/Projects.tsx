@@ -63,7 +63,6 @@ export default function Projects() {
               >
                 live
                 <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">
-                  <i className="fa-solid fa-arrow-right fa-rotate-by" style={{ "--fa-rotate-angle": "330deg" }}></i>
                 </span>
               </Link>
               <Link
@@ -74,7 +73,6 @@ export default function Projects() {
               >
                 github
                 <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">
-                  <i className="fa-solid fa-arrow-right fa-rotate-by" style={{ "--fa-rotate-angle": "330deg" }}></i>
                 </span>
               </Link>
             </div>

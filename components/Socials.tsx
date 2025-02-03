@@ -44,10 +44,7 @@ export default function Socials() {
             >
               {social.username}
               <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">
-                <i
-                  className="fa-solid fa-arrow-right text-sm fa-rotate-by ml-1"
-                  style={{ "--fa-rotate-angle": "330deg" }}
-                ></i>
+               
               </span>
             </Link>
           </p>

@@ -25,24 +25,23 @@ export default function AboutMe() {
             <Link href="/resume" className="hover:text-gray-500 group">
               Resume 
               <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">
-                <i className="fa-solid fa-arrow-right fa-rotate-by" style={{ "--fa-rotate-angle": "330deg" }}></i>
               </span>
             </Link>
             <Link href="/video-resume" className="hover:text-gray-500 group">
               Video Resume
               <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">
-                <i className="fa-solid fa-arrow-right fa-rotate-by" style={{ "--fa-rotate-angle": "330deg" }}></i>
               </span>
             </Link>
             <Link href="/proof-of-work" className="hover:text-gray-500 group">
               Proof of Work
               <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">
-                <i className="fa-solid fa-arrow-right fa-rotate-by" style={{ "--fa-rotate-angle": "330deg" }}></i>
               </span>
             </Link>
           </div>
         </div>
       </div>
+
+      
     </div>
   )
 }
