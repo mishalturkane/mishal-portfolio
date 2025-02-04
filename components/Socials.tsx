@@ -28,7 +28,7 @@ export default function Socials() {
   ]
 
   return (
-    <div className="text-xl mt-12 text-white">
+    <div className="text-xl mb-12 mt-12 text-white">
       <h2 className="mb-4 font-bold">Socials 💭</h2>
       <div className="text-base mt-4 text-gray-400 space-y-3">
         {socials.map((social, index) => (
