@@ -2,7 +2,7 @@ import "./globals.css"
 import type { Metadata } from "next"
 import { Space_Mono } from "next/font/google"
 import type React from "react" // Import React
-
+import { SpeedInsights } from "@vercel/speed-insights/next"
 const spaceMono = Space_Mono({
   subsets: ["latin"],
   weight: ["400", "700"],
@@ -22,6 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={spaceMono.variable}>
       <body className="bg-[#171717] text-white font-space-mono">{children}</body>
+      <SpeedInsights />
     </html>
   )
 }
