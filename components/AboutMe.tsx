@@ -3,7 +3,7 @@ import Link from "next/link"
 export default function AboutMe() {
   return (
     <div className="flex flex-col items-start text-left mt-6">
-      <div className="font-semibold text-lg">about me</div>
+      <div className="font-semibold text-lg mb-6">about me</div>
       <div className="mt-6">
         Hey! I am an Blockchain engineer experties in a DeFi helping the solana product founders to build the scalable
         and robust application As a dedicated Solana blockchain developer, I am engaged in building advanced projects

@@ -18,7 +18,7 @@ const blogPosts: BlogPost[] = [
 export default function BlogPosts() {
   return (
     <div className="flex flex-col items-start text-left w-full max-w-[800px] mx-auto mt-6">
-      <h2 className="text-2xl font-semibold mb-6">blog</h2>
+      <h2 className="font-semibold text-lg mb-6">blog</h2>
       {blogPosts.map((post, index) => (
         <div key={index} className="mt-6 w-full">
           {post.link ? (

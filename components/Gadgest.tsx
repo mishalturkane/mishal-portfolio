@@ -19,7 +19,7 @@ const gadgets: Gadget[] = [
 export default function Gadgets() {
   return (
     <div className="flex flex-col items-start text-left w-full max-w-[800px] mx-auto mt-6">
-      <h2 className="text-2xl font-semibold mb-6">gadgets</h2>
+      <h2 className="font-semibold text-lg mb-6">gadgets</h2>
       {gadgets.map((gadget, index) => (
         <div key={index} className="mt-6 flex flex-col items-start text-left space-y-4">
           <div>
