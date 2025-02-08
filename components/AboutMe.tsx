@@ -23,7 +23,7 @@ export default function AboutMe() {
           <button className="btn bg-black text-white p-3 sm:mr-2 hover:text-gray-500 font-bold">Schedule a meet</button>
           <div className="flex flex-col pt-2 sm:flex-row space-y-2 sm:space-y-0 sm:space-x-7 mt-3">
             <Link href="/resume" className="hover:text-gray-500 group">
-              Resume 
+             <a href="">Resume</a> 
               <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">
               </span>
             </Link>
