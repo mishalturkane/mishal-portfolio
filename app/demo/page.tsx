@@ -1,7 +1,3 @@
-import Navbar from "@/components/Navbar"
-import Profile from "@/components/Profile"
-import Gadgets from "@/components/Gadgest"
-import Socials from "@/components/Socials"
 
 export default function GadgetsPage() {
   return (
