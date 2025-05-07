@@ -10,7 +10,7 @@ const spaceMono = Space_Mono({
 })
 
 export const metadata: Metadata = {
-  title: "Mishal Portfolio",
+  title: "Mishal Turkane | Home",
   description: "Mishal Turkane - Blockchain Engineer Portfolio",
 }
 
