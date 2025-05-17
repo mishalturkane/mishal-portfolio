@@ -32,7 +32,7 @@ export default function AboutMe() {
               <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">
               </span>
             </Link>
-            <Link href="/proofofwork" className="hover:text-gray-500 group">
+            <Link href="https://cooperative-postbox-4cc.notion.site/mishal-turkane-proof-of-work-1f5e407080db806a83bae64a1193233b" className="hover:text-gray-500 group">
               Proof of Work
               <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">
               </span>

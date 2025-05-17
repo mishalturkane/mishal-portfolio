@@ -20,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={spaceMono.variable}>
+    <html lang="en" className="max-w-[800px] mx-auto pt-6 px-4 sm:px-6 lg:px-8">
       <body className="bg-[#171717] text-white font-space-mono">{children}</body>
       <SpeedInsights />
     </html>

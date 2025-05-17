@@ -1,8 +1,10 @@
 'use client';
 
+import Navbar from '@/components/Navbar';
 import { useEffect, useState } from 'react';
 
 export default function NotFound() {
+    <Navbar></Navbar>
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
